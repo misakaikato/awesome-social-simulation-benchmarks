@@ -34,6 +34,7 @@
 
 | 名字 | 数据 | 说明 |
 |---|---|---|
+| [When Synthetic Users Fail: A Cross-Domain Benchmark of LLM-Simulated Human Survey Responses](https://arxiv.org/abs/2607.26348) · [代码](https://github.com/ZihanChen1995/when-synthetic-users-fail-a-cross-domain-benchmark-of-llm-simulated-human-survey-responses) | GSS/WVS 评测数据、缓存模型输出和分析代码；完整 WVS 微观数据须按 WVSA 条款另行获取 | 在两个真人调查领域中，将四个 LLM 与非 LLM 基线比较，评测个体问卷回答保真度及人口学特征与态度关系的夸大。 |
 | [SimBench](https://arxiv.org/abs/2510.17516) · [数据](https://huggingface.co/datasets/pitehu/SimBench) | 20 个数据集统一格式，HF 可下 | 这一层目前唯一的统一基准，45 个模型跑分，最好的只有 40.80/100 |
 | [LLM Agents Grounded in Self-Reports](https://arxiv.org/abs/2411.10109) · [代码](https://github.com/joonspk-research/genagents) | 1052 人深度访谈 + GSS 应答（受限申请） | 原名 "Generative Agent Simulations of 1,000 People"；复现真人 GSS 答案达到真人两周后自我一致性的 85% |
 | [OpinionQA](https://arxiv.org/abs/2303.17548) | Pew ATP，1498 题 × 约 9.1 万题-人群对 | 按 9 个人口学维度比对意见分布，群体对齐的事实标准 |

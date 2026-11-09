@@ -34,6 +34,7 @@ Every entry carries a **Data** column saying whether real human comparison data 
 
 | Name | Data | Notes |
 |---|---|---|
+| [When Synthetic Users Fail: A Cross-Domain Benchmark of LLM-Simulated Human Survey Responses](https://arxiv.org/abs/2607.26348) · [code](https://github.com/ZihanChen1995/when-synthetic-users-fail-a-cross-domain-benchmark-of-llm-simulated-human-survey-responses) | GSS/WVS evaluation data, cached model outputs, and analysis code; full WVS microdata require separate access under WVSA terms | Tests individual survey-response fidelity and demographic over-determination across four LLMs and two human-survey domains against non-LLM baselines. |
 | [SimBench](https://arxiv.org/abs/2510.17516) · [dataset](https://huggingface.co/datasets/pitehu/SimBench) | 20 datasets unified, downloadable from HF | The only unified benchmark at this layer. 45 models scored; the best reaches 40.80/100 |
 | [LLM Agents Grounded in Self-Reports](https://arxiv.org/abs/2411.10109) · [code](https://github.com/joonspk-research/genagents) | 1,052 in-depth interviews + GSS responses (restricted access) | Formerly "Generative Agent Simulations of 1,000 People". Agents match participants' GSS answers at 85% of the participants' own two-week self-consistency |
 | [OpinionQA](https://arxiv.org/abs/2303.17548) | Pew ATP, 1,498 questions across ~91k question-subgroup pairs | Opinion distributions compared across 9 demographic traits. The de facto standard for group alignment |
